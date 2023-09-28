@@ -1,0 +1,25 @@
+1. int i = 53;
+2. float f = 4700113.141593;
+3. T.setf(ios::unitbuf);
+4. T.setf(ios::showbase);
+5. T.setf(ios::uppercase);
+6. T.setf(ios::showpos);
+7. T<<i<<endl;
+8. +53
+9. T.setf(ios::hex, ios::basefield);
+10. T<<i<<endl;
+11. 0X35
+12. T.unsetf(ios::uppercase);
+13. T.setf(ios::oct, ios::basefield);
+14. T<<i<<endl;
+15. 065
+16. T.unsetf(ios::showbase);
+17. T.setf(ios::dec, ios::basefield);
+18. T.setf(ios::left, ios::adjustfield);
+19. T.fill('0');
+20. T<<"fill char: "<<T.fill()<<endl;
+21. fill char: 0
+22. T.width(8);
+23. +5300000
+24. T<<i<<endl;
+25. +53

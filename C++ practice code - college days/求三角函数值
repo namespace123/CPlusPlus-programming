@@ -1,0 +1,12 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+const double PI=3.14159265358979;
+int main()
+{
+    double a;
+	cin>>a;
+	a=a*PI/180;
+	cout<<"sin(a)="<<sin(a)<<'\n'<<"cos(a)="<<cos(a)<<'\n'<<"tan(a)="<<tan(a)<<'\n'<<endl;
+	return 0;
+} 
